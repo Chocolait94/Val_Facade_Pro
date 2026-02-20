@@ -1,0 +1,18 @@
+{
+  "name": "VAL FACADE",
+  "short_name": "ValFacade",
+  "description": "Spécialiste en ravalement de façades et isolation thermique à Val-de-Reuil, Normandie",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

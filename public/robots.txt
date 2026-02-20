@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.valfacade.fr/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Disallow sensitive paths
+Disallow: /api/
+Disallow: /.env
+Disallow: /admin/
