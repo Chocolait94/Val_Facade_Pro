@@ -16,7 +16,6 @@ import {
   FaShieldAlt,
   FaClock,
   FaLeaf,
-  FaWhatsapp,
   FaPhone,
 } from 'react-icons/fa'
 
@@ -178,8 +177,8 @@ export default function Home() {
             transition={{ duration: 0.85, delay: 0.35 }}
             className="text-lg md:text-xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed"
           >
-            Révélez la beauté de vos façades avec VAL FACADE. Équipe qualifiée,
-            matériaux durables, résultats garantis en Normandie.
+            Nous sommes une entreprise BTP spécialisée dans le ravalement de façades 
+            et l'isolation thermique par l'extérieur, offrant des solutions durables et esthétiques.
           </motion.p>
 
           {/* CTA buttons */}
@@ -256,17 +255,12 @@ export default function Home() {
                 <span className="gradient-text">VAL FACADE</span>
               </h2>
               <p className="text-gray-500 text-lg leading-relaxed mb-5">
-                Chez VAL FACADE, situé à Val-De-Reuil, nous nous spécialisons dans
-                le ravalement et la peinture pour donner une nouvelle vie à vos
-                façades. Forts de notre expertise en isolation et en travaux de
-                façade, nous mettons un point d&apos;honneur à réaliser des
-                prestations de qualité qui répondent à vos attentes.
+                Notre équipe d'experts qualifiés garantit des travaux de qualité, 
+                respectueux des normes et des délais, pour améliorer l'efficacité énergétique de votre bâtiment.
+                Nous intervenons en Normandie et pouvons nous déplacer, 
+                proposant des devis personnalisés et un accompagnement complet pour vos projets de rénovation.
               </p>
-              <p className="text-gray-500 text-lg leading-relaxed mb-8">
-                Que ce soit pour rafraîchir l&apos;apparence de votre maison ou pour
-                améliorer son isolation, nous utilisons des matériaux durables et
-                des techniques modernes afin de garantir un résultat impeccable.
-              </p>
+
               <Link to="/a-propos-de-nous" className="btn-primary group">
                 En Savoir Plus
                 <FaArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -437,23 +431,7 @@ export default function Home() {
         </section>
       </AnimatedSection>
 
-      {/* ════════════════════════════════════
-          FLOATING WHATSAPP BUTTON
-      ════════════════════════════════════ */}
-      <motion.a
-        href="https://wa.me/33232405803?text=Bonjour%20VAL%20FACADE%2C%20je%20souhaite%20un%20devis."
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Nous contacter sur WhatsApp"
-        className="fixed bottom-6 right-6 z-40 w-14 h-14 bg-[#25D366] hover:bg-[#1ebe5d] text-white rounded-full shadow-2xl flex items-center justify-center no-print"
-        initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ delay: 2, type: 'spring', stiffness: 300 }}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
-      >
-        <FaWhatsapp size={26} />
-      </motion.a>
+
     </>
   )
 }
