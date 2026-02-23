@@ -23,7 +23,6 @@ Site web moderne pour VAL FACADE, entreprise spécialisée en ravalement de faç
 - ✅ Menu mobile en slide-in avec backdrop
 - ✅ Navigation fluide entre les pages
 - ✅ Formulaire de contact sécurisé avec validation et honeypot
-- ✅ Bouton WhatsApp flottant
 - ✅ Widget météo avec cache sessionStorage et skeleton loading
 - ✅ Politique de cookies conforme RGPD (bannière compacte)
 - ✅ Headers de sécurité optimisés (CSP, HSTS, Permissions-Policy…)
@@ -81,14 +80,11 @@ Le site sera accessible sur `http://localhost:3000`
 # Build l'image Docker
 docker build -t valfacade-web .
 
-# Lancer le container
-docker run -p 8080:8080 valfacade-web
-
-# OU utiliser Docker Compose
+# Lancer le conteneur avec Docker Compose
 docker-compose up -d
 ```
 
-Le site sera accessible sur `http://localhost:8080`
+Le site sera accessible sur `http://localhost:3000`
 
 ### Arrêter les containers
 
