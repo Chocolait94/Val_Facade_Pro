@@ -166,16 +166,19 @@ export default function About() {
             {[
               {
                 title: 'Qualité',
+                icon: '⭐',
                 description:
                   'Nous utilisons uniquement des matériaux de première qualité et des techniques éprouvées.',
               },
               {
                 title: 'Expertise',
+                icon: '🔨',
                 description:
                   'Notre équipe possède des années d\'expérience dans le domaine du BTP.',
               },
               {
                 title: 'Engagement',
+                icon: '🤝',
                 description:
                   'Nous nous engageons à respecter les délais et le budget convenus.',
               },
@@ -190,7 +193,7 @@ export default function About() {
                 className="card p-8 text-center"
               >
                 <div className="w-16 h-16 bg-gradient-to-br from-primary-600 to-primary-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold text-white">{index + 1}</span>
+                  <span className="text-3xl">{value.icon}</span>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">
                   {value.title}
